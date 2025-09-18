@@ -21,3 +21,10 @@ This repository contains R scripts used to generate the figures in our study on 
 - **R** ≥ 4.0  
 - Packages: `ggplot2`, `viridis`, `gridExtra`, `cowplot`, `gsl`  
 - Unless noted in the file, **signals are normal with \(\sigma=3\)** and fixed seeds are used for reproducibility.
+- 
+## 📄 Reference
+
+If you use this repository, please cite our paper:
+
+**Privacy-Aware Sequential Learning**  
+arXiv:https://arxiv.org/abs/2502.19525
