@@ -5,7 +5,7 @@ if (!require(gsl)) install.packages("gsl")
 library(gsl)
 
 # Constants
-sigma <- sqrt(2)
+sigma <-1
 C1 <- 1
 N <- 10000  # truncation point for zeta approx
 
@@ -41,4 +41,5 @@ min_eps <- eps_values[min_index]
 min_tau <- E_tau_values[min_index]
 
 # Print result
+
 cat("Minimum E[tau] is", round(min_tau, 4), "at epsilon =", round(min_eps, 4), "\n")
