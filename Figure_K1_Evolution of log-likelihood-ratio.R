@@ -4,7 +4,7 @@
 library(pracma) # For numerical integration
 
 # Define parameters
-sigma <- 1
+sigma <- sqrt(2)
 
 # Define function a(epsilon)
 a <- function(epsilon) {
@@ -135,3 +135,4 @@ legend("topleft", legend = c("Exact", "Approximate"),
        col = c("blue", "red"), lty = 1, lwd = 2)
 mtext("(b)", side = 3, line = 0.5, adj = 0, cex = 1.2, font = 2) # Label for right plot
 grid()
+
